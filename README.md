@@ -1,6 +1,9 @@
 # TaskManager-Flask-Test
 Simple web task list manager in pyhton3 with Flask
 
+# DEPLOY:
+https://task-manager-flask-test.herokuapp.com/
+
 ## TO RUN - at terminal:
 1 - Activate env:
 $ source env/bin/activate
@@ -15,4 +18,4 @@ $ python
 3 - Create db:
 $> from app import db
 $> db.create_all()
-$> exit() 
+$> exit()
