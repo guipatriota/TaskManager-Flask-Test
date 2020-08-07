@@ -2,6 +2,7 @@
 Simple web task list manager in pyhton3 with Flask
 
 # DEPLOY:
+<a href="https://task-manager-flask-test.herokuapp.com/" target="_blank">HERE</a>
 [HERE](https://task-manager-flask-test.herokuapp.com/){target="_blank"}
 
 ## TO RUN - at terminal:
