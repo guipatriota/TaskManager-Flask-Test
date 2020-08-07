@@ -2,3 +2,43 @@ body {
 	margin: 0;
 	font-family: sans-serif;
 }
+
+.content {
+	margin: 0 auto;
+	width: 400px;
+}
+
+table, td, th {
+	border: 1px solid #aaa;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+th {
+	height: 30px;
+}
+
+td {
+	text-align: center;
+	padding: 5px;
+}
+
+form {
+	margin: 20px;
+  width: 100%;
+	text-align: center;
+}
+
+.form {
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+#content {
+	width: 70%;
+}
