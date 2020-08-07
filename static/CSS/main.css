@@ -20,17 +20,13 @@ table {
 
 th {
 	height: 30px;
+	background-color: #1EAEF9;
+	color: white;
 }
 
 td {
 	text-align: center;
 	padding: 5px;
-}
-
-form {
-	margin: 20px;
-  width: 100%;
-	text-align: center;
 }
 
 .form {
@@ -41,4 +37,16 @@ form {
 
 #content {
 	width: 70%;
+}
+
+input[type=submit] {
+  background-color: #1EAEF9;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: bold;
 }
