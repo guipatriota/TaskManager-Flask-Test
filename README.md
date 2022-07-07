@@ -4,28 +4,73 @@ Simple web task list manager in pyhton3 with Flask
 # DEPLOY:
 <a href="https://task-manager-flask-test.herokuapp.com/" target="_blank">HERE</a>
 
-## TO RUN - at terminal:
+## TO CLONE - at terminal:
+1 - Clone repository:
+```console
+git clone https://github.com/guipatriota/TaskManager-Flask-Test.git
+```
+```console
+cd TaskManager-Flask-Test
+```
+## TO RUN - at Windows prompt with Anaconda:
 1 - Activate env:
 
-$ source env/bin/activate
+```console
+conda activate
+```
+OR
+```console
+activate
+```
 
-2 - Run app.py
+2 - Create new conda environment:
 
-$ python app.py
+```console
+conda create --name task_flask --file requirements.txt
+```
+
+## TO RUN - at Linux terminal with conda:
+1 - Activate env:
+
+```console
+conda activate
+```
+OR
+```console
+source env/bin/activate
+```
+
+2 - Create new env:
+
+```console
+conda create --name task_flask --file requirements.txt
+```
+
+3 - Run app.py
+
+```console
+python app.py
+```
 
 ## TO CREATE NEW DB - at terminal:
 1 - Activate env:
 
-$ source env/bin/activate
+```console
+source env/bin/activate
+```
 
 2 - Run python:
 
-$ python
+```console
+python
+```
 
 3 - Create db:
 
-$> from app import db
+```python
+from app import db
 
-$> db.create_all()
+db.create_all()
 
-$> exit()
+exit()
+```
