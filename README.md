@@ -12,38 +12,26 @@ git clone https://github.com/guipatriota/TaskManager-Flask-Test.git
 ```console
 cd TaskManager-Flask-Test
 ```
-## TO RUN - at Windows prompt with Anaconda:
-1 - Activate env:
+## TO RUN - at Windows prompt or Linux console with Anaconda:
+1 - Activate Conda default env:
 
 ```console
 conda activate
-```
-OR
-```console
-activate
 ```
 
 2 - Create new conda environment:
 
 ```console
-conda create --name task_flask --file requirements.txt
+conda create --name task_flask python
 ```
-
-## TO RUN - at Linux terminal with conda:
-1 - Activate env:
-
 ```console
-conda activate
+conda activate task_flask
 ```
-OR
 ```console
-source env/bin/activate
+conda install --name task_flask pip
 ```
-
-2 - Create new env:
-
 ```console
-conda create --name task_flask --file requirements.txt
+pip install -r requirements.txt
 ```
 
 3 - Run app.py
@@ -56,7 +44,7 @@ python app.py
 1 - Activate env:
 
 ```console
-source env/bin/activate
+conda activate task_flask
 ```
 
 2 - Run python:
