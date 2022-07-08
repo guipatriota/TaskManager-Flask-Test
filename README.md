@@ -13,28 +13,22 @@ git clone https://github.com/guipatriota/TaskManager-Flask-Test.git
 cd TaskManager-Flask-Test
 ```
 ## TO RUN - at Windows prompt or Linux console with Anaconda:
-1 - Activate Conda default env:
-
+1 - Create new conda environment:
 ```console
-conda activate
+conda create -y --name task_flask python
 ```
 
-2 - Create new conda environment:
-
-```console
-conda create --name task_flask python
-```
+2 - Activate the new conda environment:
 ```console
 conda activate task_flask
 ```
-```console
-conda install --name task_flask pip
-```
+
+3 - Install project dependencies:
 ```console
 pip install -r requirements.txt
 ```
 
-3 - Run app.py
+4 - Run app.py
 
 ```console
 python app.py
@@ -42,19 +36,16 @@ python app.py
 
 ## TO CREATE NEW DB - at terminal:
 1 - Activate env:
-
 ```console
 conda activate task_flask
 ```
 
 2 - Run python:
-
 ```console
 python
 ```
 
 3 - Create db:
-
 ```python
 from app import db
 
